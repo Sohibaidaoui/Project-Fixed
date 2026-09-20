@@ -23,7 +23,7 @@ namespace AotForms
 
                 Application.SetHighDpiMode(HighDpiMode.PerMonitorV2);
                 Application.EnableVisualStyles();
-                Application.Run(new hack(process.MainWindowHandle));
+                Application.Run(new LoginForm(process.MainWindowHandle));
 
             }
             else
